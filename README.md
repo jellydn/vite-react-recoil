@@ -10,6 +10,8 @@
 
 ### ✨ [Demo](https://vite-react-recoil.vercel.app)
 
+![https://gyazo.com/73817034758e50a45832d89af01b7678.gif](https://gyazo.com/73817034758e50a45832d89af01b7678.gif)
+
 ## Features
 
 - Styling by https://windicss.org/
