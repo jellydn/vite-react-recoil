@@ -112,15 +112,13 @@ type FormValues = {
 export function GithubProfile() {
   const [username, setUsername] = useRecoilState(usernameAtom);
   const profile = useRecoilValue(profileSelector);
-  const { register, handleSubmit, watch } = useForm<FormValues>({
+  const { register, handleSubmit } = useForm<FormValues>({
     defaultValues: {
       username,
     },
   });
 
   const onSubmit = (data: FormValues) => setUsername(data.username);
-
-  console.log(watch("username")); // watch input value by passing the name of it
 
   return (
     <div>
