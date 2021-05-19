@@ -2172,10 +2172,10 @@ which@^2.0.1:
   dependencies:
     isexe "^2.0.0"
 
-windicss@3.0.7:
-  version "3.0.7"
-  resolved "https://registry.yarnpkg.com/windicss/-/windicss-3.0.7.tgz#e036c65841db225e034a785c9257a87a3b8c4f3f"
-  integrity sha512-1YEICloq4e/M4ppO7B2D92UbkFZl6nDcWQxCydd8leuS2xfMod3dRJghgr+Xw4zYgoWV9BMZnUOnzkLoVnhSKA==
+windicss@3.0.9:
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/windicss/-/windicss-3.0.9.tgz#bc71e6fac60f779f9f3c4b4680565156623911d3"
+  integrity sha512-pv/SnYPfqYwz25672irDzNZpcEK/QlN9Dlhe2KUQXDjqd46wl/zLAi51BNB0pdfDZDbNjyvI1XgDXHk1oFF51A==
 
 windicss@^2.5.14:
   version "2.5.14"
