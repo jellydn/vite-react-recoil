@@ -2172,15 +2172,15 @@ which@^2.0.1:
   dependencies:
     isexe "^2.0.0"
 
+windicss@3.0.7:
+  version "3.0.7"
+  resolved "https://registry.yarnpkg.com/windicss/-/windicss-3.0.7.tgz#e036c65841db225e034a785c9257a87a3b8c4f3f"
+  integrity sha512-1YEICloq4e/M4ppO7B2D92UbkFZl6nDcWQxCydd8leuS2xfMod3dRJghgr+Xw4zYgoWV9BMZnUOnzkLoVnhSKA==
+
 windicss@^2.5.14:
   version "2.5.14"
   resolved "https://registry.yarnpkg.com/windicss/-/windicss-2.5.14.tgz#41236ccc2517c0947e1adb69e0d5e8aa9bed9c1e"
   integrity sha512-8Lm7U1M5AzJPbiaVSVz7qWdETRzlkv//5LBMICBBAojos1jo09lUGhNZ5rBzHeldB9JmqYMDOGgrrXHExu0EAg==
-
-windicss@^3.0.6:
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/windicss/-/windicss-3.0.6.tgz#882ae9930ff76b7bc2ecb6c54050a510c92ee312"
-  integrity sha512-XO/w6VBnCdniPR1vBNlNZ9BZC2uXV7dDVUQaw/ICk0LArj3xYz6WrtePTeqjCU4085SmracEqxAA+fFoKOxKsw==
 
 word-wrap@^1.2.3:
   version "1.2.3"
