@@ -363,22 +363,22 @@
     "@rollup/pluginutils" "^4.1.1"
     react-refresh "^0.10.0"
 
-"@windicss/config@1.6.3":
-  version "1.6.3"
-  resolved "https://registry.yarnpkg.com/@windicss/config/-/config-1.6.3.tgz#eff67eecc763d0080995068608d483799413bc82"
-  integrity sha512-1kjdy4tyYLD4sCB4DS+3Lt1Odnde03z4Rz3EUqyWJ7SiBEWMgRk1L797SsgEH4+W1DjLBZLs1SVYzaTO/3UdJA==
+"@windicss/config@1.7.1":
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/@windicss/config/-/config-1.7.1.tgz#f0c432796bff75bad58c72f168329fbe34619025"
+  integrity sha512-bT4Ze8d1kTKbVdQZ7yal9vjhIfuYypco2gVTy4OXvg6eAHFNZaOB/Ai4FqdRKvbgOqChHGiC32r5J55hmq6tDw==
   dependencies:
     debug "^4.3.3"
     jiti "^1.12.9"
     windicss "^3.4.3"
 
-"@windicss/plugin-utils@1.6.3":
-  version "1.6.3"
-  resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-1.6.3.tgz#b321804b4e84e7a20a5c79f50c7fd83eb8202917"
-  integrity sha512-tY20pAdV8YOlCj/5Teh078n/YbekbE5qOmlNgcl+S10KqitUGB9+Qss/xE0HULACmCXBO9XeLUcAPGao79lAnA==
+"@windicss/plugin-utils@1.7.1":
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-1.7.1.tgz#f1d5ac3d0d437d88c93ee4ea575c41907537523d"
+  integrity sha512-VMBLZ11s5kQt1RIIwfB45xFswb+SI1cvI5mK07dUSlfpomG1d1bqnB57bioo/jFNZh2Rl8wVnEvLTl7iZ4r09Q==
   dependencies:
     "@antfu/utils" "^0.4.0"
-    "@windicss/config" "1.6.3"
+    "@windicss/config" "1.7.1"
     debug "^4.3.3"
     fast-glob "^3.2.11"
     magic-string "^0.25.7"
@@ -2121,12 +2121,12 @@ v8-compile-cache@^2.0.3:
   resolved "https://registry.yarnpkg.com/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz#2de19618c66dc247dcfb6f99338035d8245a2cee"
   integrity sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==
 
-vite-plugin-windicss@1.6.3:
-  version "1.6.3"
-  resolved "https://registry.yarnpkg.com/vite-plugin-windicss/-/vite-plugin-windicss-1.6.3.tgz#64afa460eaff610a376e320c450ec79d0b6f6330"
-  integrity sha512-D4fEUcAPoLRLdDZMee8NrHZHmn0Qj7AjSg1xNGBnZsMTwRPj93NKZk0fIIUoiKTEh1KrdQejW8g6cg0SgGKTww==
+vite-plugin-windicss@1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/vite-plugin-windicss/-/vite-plugin-windicss-1.7.1.tgz#23fadfcb400bd0d7e991d0264f547f499bd57ddc"
+  integrity sha512-eEDeTPaeQAfe0widkTkm9X51BVpOE/yDIuFbULIKjXI7CfY1yjsPcxA6E3aZbLBYQcUmfhVUTYVaH5iAE5L8Hg==
   dependencies:
-    "@windicss/plugin-utils" "1.6.3"
+    "@windicss/plugin-utils" "1.7.1"
     debug "^4.3.3"
     kolorist "^1.5.1"
     windicss "^3.4.3"
