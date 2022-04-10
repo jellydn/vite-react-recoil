@@ -1,8 +1,6 @@
 import React from "react";
 import { atom, selector, useRecoilState, useRecoilValue } from "recoil";
 
-import logo from "./logo.svg";
-
 const countAtom = atom({
   key: "countState",
   default: 0,
@@ -28,7 +26,7 @@ export function Counter() {
       <p>Hello Vite + React + Recoil!</p>
       <p>
         <button
-          className="bg-blue-400 hover:bg-blue-dark text-white font-bold py-2 px-4 rounded"
+          className="px-4 py-2 font-bold text-white bg-blue-400 rounded hover:bg-blue-dark"
           onClick={() => setCount((count) => count + 1)}
         >
           count is: {count}

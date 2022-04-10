@@ -1,5 +1,4 @@
 import React from "react";
-
 import { useForm } from "react-hook-form";
 import { atom, selector, useRecoilState, useRecoilValue } from "recoil";
 
@@ -78,24 +77,24 @@ function Profile({
   url: string;
 }) {
   return (
-    <div className="bg-white text-gray-700 my-12 pb-6 w-full justify-center items-center overflow-hidden md:max-w-sm rounded-lg shadow-sm mx-auto">
+    <div className="items-center justify-center w-full pb-6 mx-auto my-12 overflow-hidden text-gray-700 bg-white rounded-lg shadow-sm md:max-w-sm">
       <div className="relative h-40">
         <img
-          className="absolute h-full w-full object-cover"
+          className="absolute object-cover w-full h-full"
           src={avatar}
           alt="avatar"
         />
       </div>
       <div className="mt-16">
         <a href={url} className="hover:text-blue-400">
-          <h1 className="text-lg text-center font-semibold">{name}</h1>
+          <h1 className="text-lg font-semibold text-center">{name}</h1>
         </a>
       </div>
-      <div className="mt-6 pt-3 flex flex-wrap mx-6 border-t">
+      <div className="flex flex-wrap pt-3 mx-6 mt-6 border-t">
         {companies.map((company) => (
           <div
             key={company}
-            className="text-xs mr-2 my-1 uppercase tracking-wider border px-2 text-indigo-600 border-indigo-600 hover:bg-indigo-600 hover:text-indigo-100 cursor-default"
+            className="px-2 my-1 mr-2 text-xs tracking-wider text-indigo-600 uppercase border border-indigo-600 cursor-default hover:bg-indigo-600 hover:text-indigo-100"
           >
             {company}
           </div>
@@ -122,10 +121,10 @@ export function GithubProfile() {
 
   return (
     <div>
-      <div className="flex flex-col max-w-4xl md:h-56 bg-white rounded-lg shadow-lg overflow-hidden md:flex-row my-10">
-        <div className="md:flex items-center justify-center md:w-1/2 md:bg-gray-700">
-          <div className="py-6 px-8 md:py-0">
-            <h2 className="text-gray-700 text-2xl font-bold md:text-gray-100">
+      <div className="flex flex-col max-w-4xl my-10 overflow-hidden bg-white rounded-lg shadow-lg md:h-56 md:flex-row">
+        <div className="items-center justify-center md:flex md:w-1/2 md:bg-gray-700">
+          <div className="px-8 py-6 md:py-0">
+            <h2 className="text-2xl font-bold text-gray-700 md:text-gray-100">
               Github Profile Finder
             </h2>
             <p className="mt-2 text-gray-600 md:text-gray-400">
@@ -133,11 +132,11 @@ export function GithubProfile() {
             </p>
           </div>
         </div>
-        <div className="flex items-center justify-center pb-6 md:py-0 md:w-1/2 md:border-b-8 border-gray-700">
+        <div className="flex items-center justify-center pb-6 border-gray-700 md:py-0 md:w-1/2 md:border-b-8">
           <form onSubmit={handleSubmit(onSubmit)}>
-            <div className="flex flex-col rounded-lg overflow-hidden sm:flex-row">
+            <div className="flex flex-col overflow-hidden rounded-lg sm:flex-row">
               <input
-                className="py-3 px-4 bg-gray-200 text-gray-800 border-gray-300 border-2 outline-none placeholder-gray-500 focus:bg-gray-100"
+                className="px-4 py-3 text-gray-800 placeholder-gray-500 bg-gray-200 border-2 border-gray-300 outline-none focus:bg-gray-100"
                 type="text"
                 placeholder="Enter your username"
                 {...register("username", {
@@ -145,7 +144,7 @@ export function GithubProfile() {
                   min: 3,
                 })}
               />
-              <button className="py-3 px-4 bg-gray-700 text-gray-100 font-semibold uppercase hover:bg-gray-600">
+              <button className="px-4 py-3 font-semibold text-gray-100 uppercase bg-gray-700 hover:bg-gray-600">
                 Submit
               </button>
             </div>

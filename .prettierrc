@@ -1,0 +1,9 @@
+{
+	"importOrder": [
+		"^@server/(.*)$",
+		"^@core/(.*)$",
+		"^@ui/(.*)$",
+		"^[./]"
+	],
+	"importOrderSeparation": true,
+}
