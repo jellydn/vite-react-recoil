@@ -26,7 +26,7 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "prettier": "2.7.1",
     "typescript": "4.7.4",
-    "vite": "2.9.12",
+    "vite": "2.9.15",
     "vite-plugin-windicss": "1.8.4",
     "windicss": "3.5.4"
   }
