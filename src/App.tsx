@@ -26,7 +26,6 @@ function App() {
         </div>
       </header>
       <ErrorBoundary>
-        {/* @ts-expect-error Type '{ children: Element[]; }' is not assignable to type 'IntrinsicAttributes & RecoilRootProps'.ts(2322) */}
         <RecoilRoot>
           <div className="flex items-center justify-center">
             <div className="p-8 mx-auto text-gray-300 bg-gray-800 border border-gray-700 rounded-lg min-w-min lg:py-12 lg:px-14">
