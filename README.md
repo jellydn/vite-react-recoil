@@ -6,6 +6,10 @@
 
 > Simple demo for react + recoil + vitejs
 
+[![IT Man - Tech #15 - React State Management - Part 1 [Vietnamese]](https://i.ytimg.com/vi/5rsM84taJX4/hqdefault.jpg)](https://www.youtube.com/watch?v=5rsM84taJX4)
+
+[![IT Man - Tech #15 - React State Management - Part 2 - Demo Apps [Vietnamese]](https://i.ytimg.com/vi/TQYs8ebLE8A/hqdefault.jpg)](https://www.youtube.com/watch?v=TQYs8ebLE8A)
+
 ## 🏠 [Homepage](https://github.com/jellydn/vite-react-recoil)
 
 ### ✨ [Demo](https://vite-react-recoil.vercel.app)
