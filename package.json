@@ -9,7 +9,7 @@
   "dependencies": {
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-hook-form": "7.35.0",
+    "react-hook-form": "7.39.2",
     "recoil": "0.7.5"
   },
   "devDependencies": {
