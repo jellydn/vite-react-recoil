@@ -27,7 +27,7 @@
     "prettier": "2.8.8",
     "typescript": "5.3.3",
     "vite": "4.5.1",
-    "vite-plugin-windicss": "1.9.2",
+    "vite-plugin-windicss": "1.9.3",
     "windicss": "3.5.6"
   }
 }
